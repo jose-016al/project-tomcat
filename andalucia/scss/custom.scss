@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+    // Nuestro codigo adicional
+$title: 'Dancing Script', sans-serif;
+
+h1 {
+    font-family: $title;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.fondo {
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banderaAndalucia.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    
+}
+.fondo > h4 {
+    
+    color: white;
+}
+
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
